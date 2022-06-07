@@ -62,12 +62,12 @@ async def handler(event):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.inline("✍ Əmrlər", data="help")
+                       Button.inline("🛠️ Əmrlər", data="help")
                       ],
-                      [Button.url('🌱 Məni Qrupa Əlavə Et', f'https://t.me/{USERNAME}?startgroup=a')],
-                     [Button.url('📣 Söhbət Qrupu', f'https://t.me/{group}')],
-                      [Button.url('📣 Kanal', f'https://t.me/{support}')],
-                       [Button.url('👨🏻‍💻 Sahib', f'https://t.me/{sahib}')]
+                      [Button.url('🤖 Məni Qrupa Əlavə Et', f'https://t.me/{USERNAME}?startgroup=a')],
+                     [Button.url('📣 Söhbət Qrupumuz', f'https://t.me/{group}')],
+                      [Button.url('📣 Kanalımız', f'https://t.me/{support}')],
+                       [Button.url('👨🏻‍💻 Developer', f'https://t.me/{sahib}')]
                     ),
                     link_preview=False)
 
