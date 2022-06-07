@@ -170,7 +170,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, "❄️ Admin tağ başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -184,7 +184,7 @@ async def mentionalladmin(event):
         await event.respond("⛔ Admin Tağ Prosesi Dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -229,7 +229,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, "❄️ Tek-tek tağ başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -243,7 +243,7 @@ async def tektag(event):
         await event.respond("⛔ Teker teker Tağ Prosesi Dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -298,7 +298,7 @@ async def etag(event):
     await client.send_message(event.chat_id, "❄️ Emoji li  Tağ başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -312,7 +312,7 @@ async def etag(event):
         await event.respond("⛔ Emoji  li Tağ işlemi Dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -407,7 +407,7 @@ async def stag(event):
     await client.send_message(event.chat_id, "❄️ Söz ilə tağ başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -421,7 +421,7 @@ async def stag(event):
         await event.respond("⛔ Söz ileə tag Prosesi Dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -499,7 +499,7 @@ async def ctag(event):
     await client.send_message(event.chat_id, "❄️ Söz ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -513,7 +513,7 @@ async def ctag(event):
         await event.respond("⛔ Söz ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -559,7 +559,7 @@ async def rtag(event):
     await client.send_message(event.chat_id, "❄️ Renk ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -573,7 +573,7 @@ async def rtag(event):
         await event.respond("⛔ Renk ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -588,6 +588,6 @@ async def rtag(event):
 ###############################
 
 
-print(">> Bot çalışmaktadur merak etme 🚀 @mutsuz_panda bilgi alabilirsin <<")
+print(">> Bot çalışmaktadur merak etme 🚀 @o2o_GenCeLi bilgi alabilirsin <<")
 client.run_until_disconnected()
 run_until_disconnected()
