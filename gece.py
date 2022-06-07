@@ -111,7 +111,7 @@ async def mentionall(event):
     await client.send_message(event.chat_id, "❄️ Tağ Başladı\n⏱️ İnterval - 2 saniyə",
                     buttons=(
                       [
-                      Button.url('📣 Support', f'https://t.me/{support}')
+                      Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -125,7 +125,7 @@ async def mentionall(event):
         await event.respond("⛔ Tağ Prosesi Dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('🇦🇿 Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
